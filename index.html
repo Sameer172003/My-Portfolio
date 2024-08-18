@@ -196,7 +196,12 @@
       .hamburger {
         display: none;
       }
-
+      @media screen and (min-width:1020px) {
+        .mar1{
+          position: relative;
+          bottom: 1000px;
+        }
+      }
       @media screen and (max-width: 1350px) {
         /* Show the hamburger menu and hide the full navbar for smaller screens */
         #hamburger {
@@ -276,6 +281,9 @@
         padding-top: 20px;
         position: relative;
         top: 600px;
+      }
+      .vertica{
+        margin-bottom: 100px;
       }
       .mar1{
         padding-top: 20px;
@@ -428,9 +436,7 @@
             </div>
             <div class="vertical-desc">
               This website is a clone of Zerodha, enabling users to buy and sell
-              stocks and analyze each stock by viewing its graph. Additionally,
-              it offers features for tracking portfolio performance, setting up
-              watchlists, and receiving real-time market updates.
+              stocks and analyze each stock by viewing its graph.
             </div>
           </div>
         </div>
