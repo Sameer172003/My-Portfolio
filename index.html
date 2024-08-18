@@ -101,6 +101,12 @@
         background-color: white;
         margin: 0 120px;
       }
+      .secondSection .vertical1 {
+        height: 93px;
+        width: 1px;
+        background-color: white;
+        margin: 0 120px;
+      }
       .thirdSection {
         max-width: 80vw;
         margin: auto;
@@ -196,13 +202,25 @@
       .hamburger {
         display: none;
       }
-      @media screen and (min-width:1020px) {
-        .mar1{
+      @media screen and (min-width: 1021px) {
+        /* body {
+          background-color: aqua;
+        } */
+        .fix1{
           position: relative;
-          bottom: 1000px;
-        }
+          top: -65px;
+         } 
+         .fix2{
+          position: relative;
+          top: -50px;
+         }
+         .secondSection .vertical1{
+          position: relative;
+          top: -10px;
+         }
       }
-      @media screen and (max-width: 1350px) {
+
+      @media screen and (max-width: 1020px) {
         /* Show the hamburger menu and hide the full navbar for smaller screens */
         #hamburger {
           display: block;
@@ -272,43 +290,43 @@
           flex-wrap: wrap;
         }
         .mar4 {
-        padding-top: 20px;
-        bottom: 30px;
-        position: relative;
-        top: 200px;
-      }
-      .mar2 {
-        padding-top: 20px;
-        position: relative;
-        top: 600px;
-      }
-      .vertica{
-        margin-bottom: 100px;
-      }
-      .mar1{
-        padding-top: 20px;
-        position: relative;
-        top: 400px;
-      }
-      .mar5{
-        padding-top: 20px;
-        position: relative;
-        top: 250px;
-        left: -250px;
-      }
-      .mar3 {
-        position: relative;
-        top: 550px;
-        left: -490px;
-      }
-      main hr{
-        margin-top: 900px;
-      }
-      .leftSection .btn{
-        position: relative;
-        top: 400px;
-        margin-top: 100px;
-      }
+          padding-top: 20px;
+          bottom: 30px;
+          position: relative;
+          top: 200px;
+        }
+        .mar2 {
+          padding-top: 20px;
+          position: relative;
+          top: 600px;
+        }
+        .vertica {
+          margin-bottom: 100px;
+        }
+        .mar1 {
+          padding-top: 20px;
+          position: relative;
+          top: 400px;
+        }
+        .mar5 {
+          padding-top: 20px;
+          position: relative;
+          top: 250px;
+          left: -250px;
+        }
+        .mar3 {
+          position: relative;
+          top: 550px;
+          left: -490px;
+        }
+        main hr {
+          margin-top: 900px;
+        }
+        .leftSection .btn {
+          position: relative;
+          top: 400px;
+          margin-top: 100px;
+        }
       }
     </style>
   </head>
@@ -406,8 +424,8 @@
               cloud-based applications.
             </div>
           </div>
-          <div class="vertical mar1">
-            <img class="image-top" src="b3.png" alt="" />
+          <div class="vertical1 mar1">
+            <img class="image-top fix1" src="b3.png" alt="" />
             <div class="vertical-title">
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WanderLust
               <div>(05-2024 to 06-2024)</div>
@@ -423,8 +441,8 @@
               well as add reviews for each listing.
             </div>
           </div>
-          <div class="vertical mar2">
-            <img class="image-top" src="b4.webp" alt="" />
+          <div class="vertical1 mar2">
+            <img class="image-top fix1" src="b4.webp" alt="" />
             <div class="vertical-title">
               &nbsp;Stock Monitoring Tool
               <div>(08-2024 to Present)</div>
@@ -518,8 +536,8 @@
               <div>4. Bootstrap</div>
             </div>
           </div>
-          <div class="vertical mar1">
-            <img class="image-top" src="s3.png" alt="" />
+          <div class="vertical1 mar1">
+            <img class="image-top fix2" src="s3.png" alt="" />
             <div class="vertical-title">
               <div class="google3">Backend</div>
             </div>
@@ -530,8 +548,8 @@
               <div>4. Git and GitHub</div>
             </div>
           </div>
-          <div class="vertical mar2">
-            <img class="image-top" src="s4.png" alt="" />
+          <div class="vertical1 mar2">
+            <img class="image-top fix2" src="s4.png" alt="" />
             <div class="vertical-title">
               <div class="google3">Languages</div>
             </div>
@@ -548,9 +566,7 @@
     <footer>
       <div class="flex">
         <div class="footer-first"><b>Phone :</b>+91-7004388757</div>
-        <div class="footer-second">
-          <b>Email :</b>ojhasameer24@gmail.com
-        </div>
+        <div class="footer-second"><b>Email :</b>ojhasameer24@gmail.com</div>
         <div class="footer-third"><b>Instagram :</b>sameer.ojha.17</div>
       </div>
     </footer>
@@ -560,7 +576,7 @@
         strings: [
           "Final Year Student",
           "MERN Full Stack Developer",
-          "and Software Developer.",
+          "Software Developer.",
         ],
         typeSpeed: 50,
       });
